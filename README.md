@@ -1,8 +1,12 @@
 # Build a Serverless Mobile (React Native (iOS)) App using AWS Amplify
 
-The below provided steps and sample code provides an example of creating a To Do React Native (Mobile - iOS) App using AWS Amplify and React Native.
+The below provided steps and sample code (App.js) provides an example of creating a To Do React Native (Mobile - iOS) App using AWS Amplify and React Native.
 
 ![Build a Serverless Mobile (React Native (iOS)) App using AWS Amplify](./media/todo-app-ios.png)
+
+# Architecture Diagram
+
+![Build a Serverless Mobile (React Native (iOS)) App using AWS Amplify](./media/architecture-diagram.png)
 
 # Create and start the ToDoList React Native app
 
@@ -80,10 +84,6 @@ The App.js file contains all the required code to:
 - Show the form for creating a ToDo Item with title and description fields
 - Displays the list of ToDos items (title and description)
 - Post and fetch the data using 'aws-amplify' methods
-
-# Architecture Diagram
-
-![Build a Serverless Mobile (React Native (iOS)) App using AWS Amplify](./media/architecture-diagram.png)
 
 ## Security
 
